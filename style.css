@@ -16,7 +16,7 @@ body{
 }
 
 .main-body{
-     
+     height: 550px;
    text-align: center;
    width: 90%;
    max-width:400px;
@@ -27,7 +27,7 @@ body{
    border-radius: 20px;
 }
 .search{
-    background: #00febc;
+    background: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,19 +60,57 @@ body{
     cursor: pointer;
     margin-right: 10px;
 }
-.btn:hover{
-    /* height: 40px;
-    border: 2px solid;
-    background: linear-gradient(135deg, #00feba, #5b548a);
-    border-radius: 18px; */
-}
+
 
 .search button img{
-    /* height: 16px; */
-
-    /* padding-right: 14px; */
-    /* background: #00febc; */
-    /* height: 24px; */
-    width: 16px; 
+    background: white;
 } 
+
+.weather-section{
+    background:transparent;
+}
+
+.weather-section img{
+    background: transparent;
+}
+
+.weather-section h1{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.temp{
+    margin-top: -8px;
+}
+.city-name{
+  margin-top: -8px;
+}
+
+.weather-section h2{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.details {
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 37px;
+}
+
+.details,div,h1,h2,p{
+    color: rgb(16, 42, 86);background: transparent;
+} 
+.col{
+    display: flex;
+    align-items: center;
+    /* justify-content: ; */
+}
+
+.details p{
+    font-size: 1.0rem;
+    font-weight: bolder;
+}
+
 

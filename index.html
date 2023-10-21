@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -17,10 +20,32 @@
         />
 
         <button class="btn">
-          <div class="search-img">
-            <img src="images/search-img.png" height="25px">
-          </div>
+          <img src="images/search-img.png" height="25px" />
         </button>
+      </div>
+
+      <div class="weather-section">
+        <img src="images/rain-icon.png" class="rain-icon" width="150px">
+        <h1 class="city-name">Bahawalpur</h1>
+        <h2 class="temp">21°C</h2>
+
+        <div class="details">
+          <div class="col">
+            <img src="images/humidity-icon.png" class="humidity-icon" height="80px">
+            <div>
+              <p>Humidity</p>
+              <p class="humidity">50%</p>
+            </div>
+          </div>
+
+          <div class="col">
+            <img src="images/wind-icon.png" class="wind-icon" height="80px">
+            <div>
+              <p>Wind Speed</p>
+              <p class="wind">15km/h</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <script
